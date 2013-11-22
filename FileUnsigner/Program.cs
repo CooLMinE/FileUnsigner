@@ -38,7 +38,7 @@ namespace FileUnsigner
                     }
                     catch (System.Security.Cryptography.CryptographicException)
                     {
-                        Console.WriteLine("\n\r" + i + ": Failed trying to unsign " + args[i] + ". File doesn't appear to be digitaly signed.");
+                        Console.WriteLine("\n\r" + i + ": Failed trying to unsign " + args[i] + ". File doesn't appear to be digitally signed.");
                     }
                     catch (Exception ex)
                     {
@@ -72,7 +72,6 @@ namespace FileUnsigner
             using (FileStream fs = new FileStream(file, System.IO.FileMode.Open, System.IO.FileAccess.ReadWrite))
             {
                 ImageRemoveCertificate(fs.SafeFileHandle.DangerousGetHandle(), 0);
-                fs.Close();
             }
         }
 
@@ -89,7 +88,7 @@ namespace FileUnsigner
             Console.WriteLine("FileUnsigner.exe <options> <file1> <file2> ...");
             Console.WriteLine(Environment.NewLine);
             Console.WriteLine("Options:");
-            Console.WriteLine("  /f \t Forces the program to remove a digital signiture even if one is not detected.");
+            Console.WriteLine("  /f \t Forces the program to remove a digital signature even if one is not detected.");
         }
     }
 }
