@@ -80,7 +80,7 @@ namespace FileUnsigner
         /// </summary>
         private static void ShowCopyrightAndUsageInformation()
         {
-            Console.WriteLine(Assembly.GetExecutingAssembly().GetName().Name + " " + Assembly.GetExecutingAssembly().GetName().Version + " Copyright (C) 2013 Fluxbytes");
+            Console.WriteLine(Assembly.GetExecutingAssembly().GetName().Name + " " + Assembly.GetExecutingAssembly().GetName().Version + " Copyright (C) 2014 Fluxbytes");
             Console.WriteLine("Latest version can be found at: http://www.fluxbytes.com/");
             Console.WriteLine(Environment.NewLine);
             Console.WriteLine("No files detected. Please use the following syntax or simply drag and drop the files into the program.");
