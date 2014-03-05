@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Fluxbytes")]
 [assembly: AssemblyProduct("FileUnsigner")]
-[assembly: AssemblyCopyright("Copyright © Fluxbytes 2013")]
+[assembly: AssemblyCopyright("Copyright © Fluxbytes 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
